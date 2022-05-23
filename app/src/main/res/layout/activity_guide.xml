@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".GuideActivity">
+    <TableRow>
+        <TextView android:text="운영안내"
+            android:layout_span="2"
+            android:gravity="center"
+            style="@style/title_style"></TextView>
+
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평일"></TextView>
+        <TextView android:text="AM 09:00 ~ PM 18:00"></TextView>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평일"></TextView>
+        <TextView android:text="AM 09:00 ~ PM 18:00"></TextView>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평일"></TextView>
+        <TextView android:text="AM 09:00 ~ PM 18:00"></TextView>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평일"></TextView>
+        <TextView android:text="AM 09:00 ~ PM 18:00"></TextView>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="오시는 길"
+            android:layout_span="2"
+            style="@style/title_style"
+            android:gravity="center"></TextView>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico01" ></ImageView>
+        <TextView android:text="AM 09:00 ~ PM 18:00"></TextView>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico02"></ImageView>
+        <TextView android:text="AM 09:00 ~ PM 18:00"></TextView>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico03"></ImageView>
+        <TextView android:text="AM 09:00 ~ PM 18:00"></TextView>
+    </TableRow>
+
+</TableLayout>
