@@ -10,6 +10,7 @@
         <TextView android:text="운영안내"
             android:layout_span="2"
             android:gravity="center"
+            android:id="@+id/ttt"
             style="@style/title_style"></TextView>
 
     </TableRow>

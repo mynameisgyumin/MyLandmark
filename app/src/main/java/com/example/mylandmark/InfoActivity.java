@@ -9,19 +9,26 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class InfoActivity extends AppCompatActivity implements View.OnClickListener {
+//public class InfoActivity extends AppCompatActivity implements View.OnClickListener {
 
     ImageView img_info;
     TextView txt_info;
     Button btn_info_back;
+
     int imgno = 0;
     int imgs[] = {R.drawable.info1, R.drawable.info2, R.drawable.info3, R.drawable.info4, R.drawable.info5};
     String texts[] = {"1번 설명", "2번 설명", "3번 설명", "4번 설명", "5번 설명"};
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
-        img_info.findViewById(R.id.img_info2);
-        txt_info.findViewById(R.id.txt_info);
+
+
+
+        img_info=findViewById(R.id.img_info2);
+        txt_info=findViewById(R.id.txt_info);
         btn_info_back = findViewById(R.id.btn_info_back);
 
         img_info.setImageResource(imgs[imgno]);
